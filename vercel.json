@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/Dom/Ecom_website/Home.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/Dom/Ecom_website/$1"
+    }
+  ]
+}
